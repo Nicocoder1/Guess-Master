@@ -36,7 +36,8 @@ public  class GuessMaster {
         if (!hasWon){
             System.out.println("Wah wah wahhhh, it was " + secretNumber + ". Better luck next time!");
         }
-        
+
+        scanner.close();
     }
 
     private static String hotColdHint(int guess, int secretNumber) {
