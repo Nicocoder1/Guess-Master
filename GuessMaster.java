@@ -26,6 +26,7 @@ public class GuessMaster {
                 hasWon = true;
                 System.out.println("You are correct!");
             } else if (guess < secretNumber) {
+
                 System.out.println(hotColdHint(guess, secretNumber));
             } else {
                 System.out.println(hotColdHint(guess, secretNumber));
